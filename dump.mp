@@ -1,5 +1,5 @@
 met include ["std"];
-var &func dump = (value ^, end &str ["\n"], sup &str [" "]) => {
+var &func dump = (value ^, end &str ["\n"], sup &str [" "]) {
   var &str to_print = "";
   var &int num = *len(&value);
   met for (i, &num) {
