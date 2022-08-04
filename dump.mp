@@ -7,4 +7,5 @@ var &func dump = (value ^, end &str ["\n"], sup &str [" "]) {
   };
   met operation string to_print += &end;
   met std &to_print;
+  met return 0;
 };
